@@ -2,11 +2,10 @@ const Index = () => {
   return (
     <div className="relative min-h-screen w-full overflow-hidden">
       {/* GIF Background */}
-      <div 
-        className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: `url("/Pop%20Art%20GIF%20by%20Xinanimodelacra.gif")`,
-        }}
+      <img
+        src="/Pop Art GIF by Xinanimodelacra.gif"
+        alt="Pop Art Background"
+        className="absolute inset-0 w-full h-full object-cover"
       />
       
       {/* Content Overlay */}
