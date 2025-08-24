@@ -3,7 +3,7 @@ const Index = () => {
     <div className="relative min-h-screen w-full overflow-hidden">
       {/* GIF Background */}
       <img
-        src="/Pop Art GIF by Xinanimodelacra.gif"
+        src="/lovable-uploads/ed31153e-5e78-4ca8-b978-91962faedbba.png"
         alt="Pop Art Background"
         className="absolute inset-0 w-full h-full object-cover"
       />
