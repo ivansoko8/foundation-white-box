@@ -17,7 +17,7 @@ const Index = () => {
       <div className="absolute top-4 right-4 z-20 w-64 h-36 md:w-80 md:h-45 lg:w-96 lg:h-54 rounded-lg overflow-hidden shadow-lg">
         <iframe
           className="w-full h-full"
-          src="https://www.youtube.com/embed/ALp7G3stDZE?autoplay=1&mute=1&loop=1&playlist=ALp7G3stDZE&controls=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1"
+          src="https://www.youtube.com/embed/i6_3PB7ONYo?autoplay=1&mute=1&loop=1&playlist=i6_3PB7ONYo&controls=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1"
           title="Overlay Video"
           frameBorder="0"
           allow="autoplay; encrypted-media"
