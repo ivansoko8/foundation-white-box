@@ -2,10 +2,15 @@
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <div className="min-h-screen bg-white p-8">
+      <div className="max-w-2xl mx-auto">
+        <h1 className="text-3xl font-normal mb-6 text-black">Welcome</h1>
+        <p className="text-base text-gray-600 mb-4">
+          This is a plain white landing page.
+        </p>
+        <p className="text-base text-gray-600">
+          Simple, clean, and minimal.
+        </p>
       </div>
     </div>
   );
