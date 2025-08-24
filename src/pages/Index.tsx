@@ -37,6 +37,18 @@ const Index = () => {
         />
       </div>
 
+      {/* Small Video Overlay - Bottom Right */}
+      <div className="absolute bottom-4 right-4 z-20 w-64 h-36 md:w-80 md:h-45 lg:w-96 lg:h-54 rounded-lg overflow-hidden shadow-lg">
+        <iframe
+          className="w-full h-full"
+          src="https://www.youtube.com/embed/jtmT7u-zgkM?autoplay=1&mute=1&loop=1&playlist=jtmT7u-zgkM&controls=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1"
+          title="Bottom Right Overlay Video"
+          frameBorder="0"
+          allow="autoplay; encrypted-media"
+          allowFullScreen
+        />
+      </div>
+
       {/* Content Overlay */}
       <div className="relative z-10 flex items-center justify-center h-full bg-black/20">
         <div className="text-center text-white px-4">
