@@ -13,53 +13,6 @@ const Index = () => {
         />
       </div>
       
-      {/* Small Video Overlay - Top Left */}
-      <div className="absolute top-4 left-4 z-20 w-64 h-36 md:w-80 md:h-45 lg:w-96 lg:h-54 rounded-lg overflow-hidden shadow-lg">
-        <iframe
-          className="w-full h-full"
-          src="https://www.youtube.com/embed/ALp7G3stDZE?autoplay=1&mute=1&loop=1&playlist=ALp7G3stDZE&controls=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1"
-          title="Top Left Overlay Video"
-          frameBorder="0"
-          allow="autoplay; encrypted-media"
-          allowFullScreen
-        />
-      </div>
-
-      {/* Small Video Overlay - Top Right */}
-      <div className="absolute top-4 right-4 z-20 w-64 h-36 md:w-80 md:h-45 lg:w-96 lg:h-54 rounded-lg overflow-hidden shadow-lg">
-        <iframe
-          className="w-full h-full"
-          src="https://www.youtube.com/embed/i6_3PB7ONYo?autoplay=1&mute=1&loop=1&playlist=i6_3PB7ONYo&controls=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1"
-          title="Top Right Overlay Video"
-          frameBorder="0"
-          allow="autoplay; encrypted-media"
-          allowFullScreen
-        />
-      </div>
-
-      {/* Small Video Overlay - Bottom Right */}
-      <div className="absolute bottom-4 right-4 z-20 w-64 h-36 md:w-80 md:h-45 lg:w-96 lg:h-54 rounded-lg overflow-hidden shadow-lg">
-        <iframe
-          className="w-full h-full"
-          src="https://www.youtube.com/embed/jtmT7u-zgkM?autoplay=1&mute=1&loop=1&playlist=jtmT7u-zgkM&controls=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1"
-          title="Bottom Right Overlay Video"
-          frameBorder="0"
-          allow="autoplay; encrypted-media"
-          allowFullScreen
-        />
-      </div>
-
-      {/* Small Video Overlay - Bottom Left */}
-      <div className="absolute bottom-4 left-4 z-20 w-64 h-36 md:w-80 md:h-45 lg:w-96 lg:h-54 rounded-lg overflow-hidden shadow-lg">
-        <iframe
-          className="w-full h-full"
-          src="https://www.youtube.com/embed/QDvRc-RwpeM?autoplay=1&mute=1&loop=1&playlist=QDvRc-RwpeM&controls=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1"
-          title="Bottom Left Overlay Video"
-          frameBorder="0"
-          allow="autoplay; encrypted-media"
-          allowFullScreen
-        />
-      </div>
 
       {/* GIF Overlay - Center */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-30">
