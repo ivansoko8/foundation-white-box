@@ -21,13 +21,11 @@ const Index = () => {
           alt="Lamin Yemal"
           className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-contain"
           style={{
-            background: 'transparent',
             filter: 'drop-shadow(0 0 0 transparent)',
-            clipPath: 'polygon(0 0, 100% 0, 100% 85%, 0 100%)',
             mixBlendMode: 'multiply'
           }}
         />
-        <h2 className="font-powerpoint text-2xl sm:text-3xl md:text-4xl font-black bg-gradient-to-r from-orange-400 to-white bg-clip-text text-transparent drop-shadow-lg">
+        <h2 className="font-powerpoint text-2xl sm:text-3xl md:text-4xl font-black text-white drop-shadow-lg">
           LAMIN YEMAL
         </h2>
       </div>
@@ -65,7 +63,7 @@ const Index = () => {
         <img
           src="/Happy Pop Art GIF by Xinanimodelacra.gif"
           alt="Happy Pop Art Animation"
-          className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 object-cover rounded-lg shadow-lg animate-spin-360"
+          className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 object-cover rounded-lg shadow-lg"
         />
       </div>
 
