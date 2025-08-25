@@ -34,7 +34,7 @@ const Index = () => {
       {/* Top Left */}
       <div className="absolute top-4 left-4 z-30">
         <img
-          src="https://uangwxyjepawtsfeyugo.supabase.co/storage/v1/object/public/media/dance-barcelona.gif"
+          src="https://uangwxyjepawtsfeyugo.supabase.co/storage/v1/object/public/media/Dance%20Barcelona%20GIF%20by%20Wahala%20Room.gif"
           alt="Dance Barcelona Animation"
           className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 object-cover rounded-lg shadow-lg"
         />
@@ -43,7 +43,7 @@ const Index = () => {
       {/* Top Right */}
       <div className="absolute top-4 right-4 z-30">
         <img
-          src="https://uangwxyjepawtsfeyugo.supabase.co/storage/v1/object/public/media/happy-spanish.gif"
+          src="https://uangwxyjepawtsfeyugo.supabase.co/storage/v1/object/public/media/Happy%20Spanish%20GIF%20by%20TRT.gif"
           alt="Happy Spanish Animation"
           className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 object-cover rounded-lg shadow-lg"
         />
@@ -52,7 +52,7 @@ const Index = () => {
       {/* Bottom Left */}
       <div className="absolute bottom-4 left-4 z-30">
         <img
-          src="https://uangwxyjepawtsfeyugo.supabase.co/storage/v1/object/public/media/france-art.gif"
+          src="https://uangwxyjepawtsfeyugo.supabase.co/storage/v1/object/public/media/France%20Art%20GIF%20by%20Xinanimodelacra.gif"
           alt="France Art Animation"
           className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 object-cover rounded-lg shadow-lg"
         />
@@ -61,7 +61,7 @@ const Index = () => {
       {/* Bottom Right */}
       <div className="absolute bottom-4 right-4 z-30">
         <img
-          src="https://uangwxyjepawtsfeyugo.supabase.co/storage/v1/object/public/media/happy-pop-art.gif"
+          src="https://uangwxyjepawtsfeyugo.supabase.co/storage/v1/object/public/media/Happy%20Pop%20Art%20GIF%20by%20Xinanimodelacra.gif"
           alt="Happy Pop Art Animation"
           className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 object-cover rounded-lg shadow-lg animate-spin-slow"
         />
