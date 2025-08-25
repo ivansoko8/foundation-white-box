@@ -107,25 +107,25 @@ const Index = () => {
              the oficil 100% true real coin of lamin yemal
            </p>
          </div>
+       </div>
 
-         {/* Anonymous Submission Form */}
-         <div className="w-full max-w-sm mx-auto px-4 -ml-4">
-           <div className="bg-white/95 backdrop-blur-sm rounded-xl border-2 border-red-500 p-4 shadow-lg">
-             <textarea
-               value={submission}
-               onChange={(e) => setSubmission(e.target.value)}
-               placeholder="Share your thoughts anonymously..."
-               className="w-full h-28 p-3 border border-gray-200 rounded-lg resize-none focus:outline-none focus:ring-2 focus:ring-red-500 text-gray-800 placeholder-gray-500"
-               disabled={isSubmitting}
-             />
-             <button
-               onClick={handleSubmit}
-               disabled={isSubmitting || !submission.trim()}
-               className="w-full mt-3 bg-red-500 hover:bg-red-600 hover:shadow-lg hover:shadow-red-500/30 disabled:bg-gray-400 disabled:hover:shadow-none text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 hover:scale-[1.02]"
-             >
-               {isSubmitting ? 'Sending...' : 'Send anonymously 🥸🤫'}
-             </button>
-           </div>
+       {/* Anonymous Submission Form - Centered and bottom-aligned with GIFs */}
+       <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 z-40">
+         <div className="bg-white/95 backdrop-blur-sm rounded-xl border-2 border-red-500 p-4 shadow-lg w-80">
+           <textarea
+             value={submission}
+             onChange={(e) => setSubmission(e.target.value)}
+             placeholder="Share your thoughts anonymously..."
+             className="w-full h-28 p-3 border border-gray-200 rounded-lg resize-none focus:outline-none focus:ring-2 focus:ring-red-500 text-gray-800 placeholder-gray-500"
+             disabled={isSubmitting}
+           />
+           <button
+             onClick={handleSubmit}
+             disabled={isSubmitting || !submission.trim()}
+             className="w-full mt-3 bg-red-500 hover:bg-red-600 hover:shadow-lg hover:shadow-red-500/30 disabled:bg-gray-400 disabled:hover:shadow-none text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 hover:scale-[1.02]"
+           >
+             {isSubmitting ? 'Sending...' : 'Send anonymously 🥸🤫'}
+           </button>
          </div>
        </div>
     </div>
