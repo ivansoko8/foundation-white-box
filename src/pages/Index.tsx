@@ -1,5 +1,3 @@
-import laminYemalImage from "@/assets/lamin-yemal-transparent.png";
-
 const Index = () => {
   return (
     <div className="relative h-screen w-full overflow-hidden">
@@ -19,9 +17,13 @@ const Index = () => {
       {/* Header with Lamin Yemal */}
       <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-40 flex items-center gap-4">
         <img
-          src={laminYemalImage}
+          src="/lovable-uploads/870abdb2-f0ed-47bd-aa45-871c41b58714.png"
           alt="Lamin Yemal"
           className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-contain"
+          style={{
+            filter: 'drop-shadow(0 0 0 transparent)',
+            mixBlendMode: 'multiply'
+          }}
         />
         <h2 className="font-powerpoint text-2xl sm:text-3xl md:text-4xl font-black text-white drop-shadow-lg">
           LAMIN YEMAL
