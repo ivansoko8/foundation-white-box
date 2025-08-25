@@ -112,7 +112,7 @@ const Index = () => {
            <textarea
              value={submission}
              onChange={(e) => setSubmission(e.target.value)}
-             placeholder="Share your thoughts anonymously..."
+             placeholder="Share degen thoughts anonymously..."
              className="w-full h-28 p-3 border border-gray-200 rounded-lg resize-none focus:outline-none focus:ring-2 focus:ring-red-500 text-gray-800 placeholder-gray-500"
              disabled={isSubmitting}
            />
