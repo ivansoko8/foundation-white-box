@@ -1,4 +1,4 @@
-import laminYemalImage from "@/assets/lamin-yemal.png";
+import laminYemalImage from "@/assets/lamin-yemal-transparent.png";
 
 const Index = () => {
   return (
