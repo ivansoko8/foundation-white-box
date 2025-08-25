@@ -111,7 +111,7 @@ const Index = () => {
 
        {/* Anonymous Submission Form - Centered and bottom-aligned with GIFs */}
        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 z-40">
-         <div className="bg-white/95 backdrop-blur-sm rounded-xl border-2 border-red-500 p-4 shadow-lg w-80">
+         <div className="bg-white/95 backdrop-blur-sm rounded-xl border-2 border-red-500 p-4 shadow-lg w-96">
            <textarea
              value={submission}
              onChange={(e) => setSubmission(e.target.value)}
@@ -122,9 +122,12 @@ const Index = () => {
            <button
              onClick={handleSubmit}
              disabled={isSubmitting || !submission.trim()}
-             className="w-full mt-3 bg-red-500 hover:bg-red-600 hover:shadow-lg hover:shadow-red-500/30 disabled:bg-gray-400 disabled:hover:shadow-none text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 hover:scale-[1.02]"
+             className="w-full mt-3 rainbow-mlg hover:shadow-lg hover:shadow-purple-500/40 disabled:bg-gray-400 disabled:hover:shadow-none text-white font-bold py-3 px-4 rounded-lg transition-all duration-200 hover:scale-[1.02] text-shadow-lg relative z-10"
+             style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.8)' }}
            >
-             {isSubmitting ? 'Sending...' : 'Send anonymously 🥸🤫'}
+             <span className="relative z-10 drop-shadow-lg">
+               {isSubmitting ? 'Sending...' : 'Send anonymously 🥸🤫'}
+             </span>
            </button>
          </div>
        </div>
