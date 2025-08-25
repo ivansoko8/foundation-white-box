@@ -1,4 +1,34 @@
+import { useState } from 'react';
+import { supabase } from '@/integrations/supabase/client';
+import { toast } from 'sonner';
+
 const Index = () => {
+  const [submission, setSubmission] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async () => {
+    if (!submission.trim()) {
+      toast.error('Please enter some text before submitting');
+      return;
+    }
+
+    setIsSubmitting(true);
+    try {
+      const { error } = await supabase
+        .from('anonymous_submissions')
+        .insert({ content: submission.trim() });
+
+      if (error) throw error;
+
+      toast.success('Submitted anonymously! 🥸');
+      setSubmission('');
+    } catch (error) {
+      console.error('Error submitting:', error);
+      toast.error('Failed to submit. Please try again.');
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
   return (
     <div className="relative h-screen w-full overflow-hidden">
       {/* YouTube Video Background */}
@@ -67,17 +97,37 @@ const Index = () => {
         />
       </div>
 
-      {/* Content Overlay */}
-      <div className="relative z-10 flex items-center justify-center h-full bg-black/20">
-        <div className="text-center text-white px-4">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4">
-            $YEMAL
-          </h1>
-          <p className="text-lg md:text-xl lg:text-2xl max-w-2xl mx-auto">
-            the oficil 100% true real coin of lamin yemal
-          </p>
-        </div>
-      </div>
+       {/* Content Overlay */}
+       <div className="relative z-10 flex flex-col items-center justify-center h-full bg-black/20">
+         <div className="text-center text-white px-4 mb-8">
+           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4">
+             $YEMAL
+           </h1>
+           <p className="text-lg md:text-xl lg:text-2xl max-w-2xl mx-auto">
+             the oficil 100% true real coin of lamin yemal
+           </p>
+         </div>
+
+         {/* Anonymous Submission Form */}
+         <div className="w-full max-w-md mx-auto px-4 -ml-8">
+           <div className="bg-white/95 backdrop-blur-sm rounded-xl border-2 border-red-500 p-4 shadow-lg">
+             <textarea
+               value={submission}
+               onChange={(e) => setSubmission(e.target.value)}
+               placeholder="Share your thoughts anonymously..."
+               className="w-full h-32 p-3 border border-gray-200 rounded-lg resize-none focus:outline-none focus:ring-2 focus:ring-red-500 text-gray-800 placeholder-gray-500"
+               disabled={isSubmitting}
+             />
+             <button
+               onClick={handleSubmit}
+               disabled={isSubmitting || !submission.trim()}
+               className="w-full mt-3 bg-red-500 hover:bg-red-600 disabled:bg-gray-400 text-white font-semibold py-3 px-4 rounded-lg transition-colors duration-200"
+             >
+               {isSubmitting ? 'Sending...' : 'Send anonymously 🥸🤫'}
+             </button>
+           </div>
+         </div>
+       </div>
     </div>
   );
 };
