@@ -20,7 +20,7 @@ const Index = () => {
         <img
           src="/Dance Barcelona GIF by Wahala Room.gif"
           alt="Dance Barcelona Animation"
-          className="w-24 h-24 sm:w-32 sm:h-32 object-cover rounded-lg shadow-lg"
+          className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 object-cover rounded-lg shadow-lg"
         />
       </div>
 
@@ -29,7 +29,7 @@ const Index = () => {
         <img
           src="/Happy Spanish GIF by TRT.gif"
           alt="Happy Spanish Animation"
-          className="w-24 h-24 sm:w-32 sm:h-32 object-cover rounded-lg shadow-lg"
+          className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 object-cover rounded-lg shadow-lg"
         />
       </div>
 
@@ -38,7 +38,7 @@ const Index = () => {
         <img
           src="/France Art GIF by Xinanimodelacra.gif"
           alt="France Art Animation"
-          className="w-24 h-24 sm:w-32 sm:h-32 object-cover rounded-lg shadow-lg"
+          className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 object-cover rounded-lg shadow-lg"
         />
       </div>
 
@@ -47,7 +47,7 @@ const Index = () => {
         <img
           src="/Happy Pop Art GIF by Xinanimodelacra.gif"
           alt="Happy Pop Art Animation"
-          className="w-24 h-24 sm:w-32 sm:h-32 object-cover rounded-lg shadow-lg"
+          className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 object-cover rounded-lg shadow-lg"
         />
       </div>
 
