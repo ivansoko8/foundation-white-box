@@ -1,3 +1,5 @@
+import laminYemalImage from "@/assets/lamin-yemal.png";
+
 const Index = () => {
   return (
     <div className="relative h-screen w-full overflow-hidden">
@@ -13,6 +15,18 @@ const Index = () => {
         />
       </div>
       
+
+      {/* Header with Lamin Yemal */}
+      <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-40 flex items-center gap-4">
+        <img
+          src={laminYemalImage}
+          alt="Lamin Yemal"
+          className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-contain"
+        />
+        <h2 className="font-powerpoint text-2xl sm:text-3xl md:text-4xl font-black text-white drop-shadow-lg">
+          LAMIN YEMAL
+        </h2>
+      </div>
 
       {/* GIF Overlays - Four Corners */}
       {/* Top Left */}
@@ -55,10 +69,10 @@ const Index = () => {
       <div className="relative z-10 flex items-center justify-center h-full bg-black/20">
         <div className="text-center text-white px-4">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4">
-            Your Hero Title
+            $YEMAL
           </h1>
           <p className="text-lg md:text-xl lg:text-2xl max-w-2xl mx-auto">
-            Your compelling subtitle or description goes here
+            the oficil 100% true real coin of lamin yemal
           </p>
         </div>
       </div>
