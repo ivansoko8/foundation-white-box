@@ -30,6 +30,42 @@ const Index = () => {
         </h2>
       </div>
 
+      {/* GIF Overlays - Four Corners from Supabase Storage */}
+      {/* Top Left */}
+      <div className="absolute top-4 left-4 z-30">
+        <img
+          src="https://uangwxyjepawtsfeyugo.supabase.co/storage/v1/object/public/media/dance-barcelona.gif"
+          alt="Dance Barcelona Animation"
+          className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 object-cover rounded-lg shadow-lg"
+        />
+      </div>
+
+      {/* Top Right */}
+      <div className="absolute top-4 right-4 z-30">
+        <img
+          src="https://uangwxyjepawtsfeyugo.supabase.co/storage/v1/object/public/media/happy-spanish.gif"
+          alt="Happy Spanish Animation"
+          className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 object-cover rounded-lg shadow-lg"
+        />
+      </div>
+
+      {/* Bottom Left */}
+      <div className="absolute bottom-4 left-4 z-30">
+        <img
+          src="https://uangwxyjepawtsfeyugo.supabase.co/storage/v1/object/public/media/france-art.gif"
+          alt="France Art Animation"
+          className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 object-cover rounded-lg shadow-lg"
+        />
+      </div>
+
+      {/* Bottom Right */}
+      <div className="absolute bottom-4 right-4 z-30">
+        <img
+          src="https://uangwxyjepawtsfeyugo.supabase.co/storage/v1/object/public/media/happy-pop-art.gif"
+          alt="Happy Pop Art Animation"
+          className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 object-cover rounded-lg shadow-lg animate-spin-slow"
+        />
+      </div>
 
       {/* Content Overlay */}
       <div className="relative z-10 flex items-center justify-center h-full bg-black/20">
