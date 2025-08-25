@@ -44,7 +44,7 @@ const Index = () => {
       {/* Header with Lamin Yemal */}
       <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-40 flex items-center gap-4">
         <img
-          src="/lovable-uploads/870abdb2-f0ed-47bd-aa45-871c41b58714.png"
+          src="https://uangwxyjepawtsfeyugo.supabase.co/storage/v1/object/public/media/ChatGPT%20Image%20Aug%2025,%202025,%2006_25_41%20PM.png"
           alt="Lamin Yemal"
           className="w-20 h-20 sm:w-28 sm:h-28 md:w-32 md:h-32 object-contain"
           style={{
