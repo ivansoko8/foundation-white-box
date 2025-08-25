@@ -14,12 +14,40 @@ const Index = () => {
       </div>
       
 
-      {/* GIF Overlay - Center */}
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-30">
+      {/* GIF Overlays - Four Corners */}
+      {/* Top Left */}
+      <div className="absolute top-4 left-4 z-30">
+        <img
+          src="/Dance Barcelona GIF by Wahala Room.gif"
+          alt="Dance Barcelona Animation"
+          className="w-24 h-24 sm:w-32 sm:h-32 object-cover rounded-lg shadow-lg"
+        />
+      </div>
+
+      {/* Top Right */}
+      <div className="absolute top-4 right-4 z-30">
+        <img
+          src="/Happy Spanish GIF by TRT.gif"
+          alt="Happy Spanish Animation"
+          className="w-24 h-24 sm:w-32 sm:h-32 object-cover rounded-lg shadow-lg"
+        />
+      </div>
+
+      {/* Bottom Left */}
+      <div className="absolute bottom-4 left-4 z-30">
         <img
           src="/France Art GIF by Xinanimodelacra.gif"
-          alt="Pop Art Animation"
-          className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 object-cover rounded-lg shadow-lg"
+          alt="France Art Animation"
+          className="w-24 h-24 sm:w-32 sm:h-32 object-cover rounded-lg shadow-lg"
+        />
+      </div>
+
+      {/* Bottom Right */}
+      <div className="absolute bottom-4 right-4 z-30">
+        <img
+          src="/Happy Pop Art GIF by Xinanimodelacra.gif"
+          alt="Happy Pop Art Animation"
+          className="w-24 h-24 sm:w-32 sm:h-32 object-cover rounded-lg shadow-lg"
         />
       </div>
 
