@@ -19,13 +19,13 @@ const Index = () => {
         <img
           src="/lovable-uploads/870abdb2-f0ed-47bd-aa45-871c41b58714.png"
           alt="Lamin Yemal"
-          className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-contain"
+          className="w-20 h-20 sm:w-28 sm:h-28 md:w-32 md:h-32 object-contain"
           style={{
             filter: 'drop-shadow(0 0 0 transparent)',
             mixBlendMode: 'multiply'
           }}
         />
-        <h2 className="font-powerpoint text-2xl sm:text-3xl md:text-4xl font-black bg-gradient-orange-white bg-clip-text text-transparent drop-shadow-lg">
+        <h2 className="font-powerpoint text-3xl sm:text-4xl md:text-5xl font-black bg-gradient-orange-white bg-clip-text text-transparent drop-shadow-lg">
           LAMIN YEMAL
         </h2>
       </div>
