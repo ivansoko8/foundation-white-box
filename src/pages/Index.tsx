@@ -31,15 +31,12 @@ const Index = () => {
   };
   return (
     <div className="relative h-screen w-full overflow-hidden">
-      {/* YouTube Video Background */}
+      {/* Background GIF */}
       <div className="absolute inset-0 w-full h-full">
-        <iframe
-          className="absolute top-1/2 left-1/2 w-[177.77777778vh] h-[56.25vw] min-h-full min-w-full transform -translate-x-1/2 -translate-y-1/2"
-          src="https://www.youtube.com/embed/ZJSiz0nz9U4?autoplay=1&mute=1&loop=1&playlist=ZJSiz0nz9U4&controls=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1"
-          title="Background Video"
-          frameBorder="0"
-          allow="autoplay; encrypted-media"
-          allowFullScreen
+        <img
+          src="https://uangwxyjepawtsfeyugo.supabase.co/storage/v1/object/public/media/Pop%20Art%20GIF%20by%20Xinanimodelacra.gif"
+          alt="Pop Art Background Animation"
+          className="absolute inset-0 w-full h-full object-cover"
         />
       </div>
       
